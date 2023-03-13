@@ -8,6 +8,12 @@ class Appointment {
     Int roomnumber 
 
     static constraints = {
+
+        
+        appDuration size: 1..3, blank:false,
+        roomnumber size: 1..10, blank:false,
+
+
        
     }
 }
