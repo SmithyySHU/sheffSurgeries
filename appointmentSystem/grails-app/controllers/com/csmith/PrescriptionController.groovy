@@ -1,6 +1,6 @@
 package com.csmith
 
-class PerscriptionController {
+class PrescriptionController {
 
     def scaffold = Prescription
 }

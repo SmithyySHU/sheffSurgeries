@@ -5,13 +5,13 @@ class Appointment {
     Date appDay
     String appTime
     String appDuration
-    Int roomnumber 
+    int roomnumber 
 
     static constraints = {
 
         
-        appDuration size: 1..3, blank:false,
-        roomnumber size: 1..10, blank:false,
+        appDuration size: 1..3, blank:false
+        roomnumber size: 1..10, blank:false
 
 
        

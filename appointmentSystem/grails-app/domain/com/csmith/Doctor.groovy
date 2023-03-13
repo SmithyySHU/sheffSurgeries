@@ -7,16 +7,16 @@ class Doctor {
     String doctorEmail
     String password
     String doctorOffice
-    Int doctorPhone
+    int doctorPhone
     String bio
 
     static constraints = {
 
-        fullName size: 2..64, blank:false,
-        position size: 2..64, blank:false,
-        doctorEmail size: 5..128, blank:false, unique:true, email:true, 
-        password size: 8..32, blank:false, 
-        doctorOffice size: 5..10, blank:false,
-        doctorPhone size: 10..11, blank:false, 
+        fullName size: 2..64, blank:false
+        position size: 2..64, blank:false
+        doctorEmail size: 5..128, blank:false, unique:true, email:true
+        password size: 8..32, blank:false
+        doctorOffice size: 5..10, blank:false
+        doctorPhone size: 10..11, blank:false
     }
 }
