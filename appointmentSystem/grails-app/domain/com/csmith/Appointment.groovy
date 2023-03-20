@@ -8,7 +8,7 @@ class Appointment {
     int roomnumber 
 
     Doctor doctor
-    Patient patinet
+    Patient patient
     Surgery surgery
 
     static constraints = {

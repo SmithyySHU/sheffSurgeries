@@ -19,5 +19,5 @@ class Receptionist {
     }
 
 
-    Static belongsTo = [surgery:Surgery]
+    static belongsTo = [surgery:Surgery]
 }
