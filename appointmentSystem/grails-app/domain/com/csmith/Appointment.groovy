@@ -7,6 +7,10 @@ class Appointment {
     String appDuration
     int roomnumber 
 
+    Doctor doctor
+    Patient patinet
+    Surgery surgery
+
     static constraints = {
 
         

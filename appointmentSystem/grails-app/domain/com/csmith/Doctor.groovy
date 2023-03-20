@@ -10,6 +10,8 @@ class Doctor {
     int doctorPhone
     String bio
 
+    Surgery surgery
+
     static constraints = {
 
         fullName size: 2..64, blank:false
@@ -19,4 +21,8 @@ class Doctor {
         doctorOffice size: 5..10, blank:false
         doctorPhone size: 10..11, blank:false
     }
+
+    static belongsTo = [surgery:Surgery]
+
+    static hasMany = [patinets:Patient, nurses:Nurse, appointments:Appointment, prescriptions:Prescription]
 }

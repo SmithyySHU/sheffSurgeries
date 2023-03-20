@@ -8,6 +8,9 @@ class Prescription {
     Date dateissued
     String patientPaying
 
+    Doctor doctor
+    Patient patient
+
     static constraints = {
 
         pharmacyName size: 5..32, blank:false
@@ -16,4 +19,6 @@ class Prescription {
         dateissued blank:false
         patientPaying blank:false
     }
+
+
 }

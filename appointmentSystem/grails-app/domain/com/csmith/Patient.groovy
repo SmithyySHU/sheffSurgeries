@@ -19,4 +19,7 @@ class Patient {
         dateRegisted blank:false
         patientPhone size: 10..11, blank:false
     }
+
+    Static hasMany = [prescriptions:Prescription, doctors:Doctor, surgerys:Surgery
+     ]
 }

@@ -19,4 +19,6 @@ class Surgery {
         
 
     }
+
+    static hasMany = [nurses:Nurse, doctors:Doctor, receptionists:Receptionist, patients:Patient, appointments:Appointment]
 }

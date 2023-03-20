@@ -6,6 +6,7 @@ class Receptionist {
     String recepUsername
     String recepPassword
     String recepPhone
+    Surgery surgery
 
     static constraints = {
         recepName size: 5..128, blank:false
@@ -16,4 +17,7 @@ class Receptionist {
 
 
     }
+
+
+    Static belongsTo = [surgery:Surgery]
 }
