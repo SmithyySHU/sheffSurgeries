@@ -11,6 +11,11 @@ class Prescription {
     Doctor doctor
     Patient patient
 
+
+    String toString(){
+        return prescripNumber + " | " + medicine
+    }
+
     static constraints = {
 
         pharmacyName size: 5..32, blank:false

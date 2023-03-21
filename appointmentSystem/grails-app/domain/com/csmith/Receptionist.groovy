@@ -8,6 +8,27 @@ class Receptionist {
     String recepPhone
     Surgery surgery
 
+      String getRecepPhone() {
+    if (recepPhone) {
+        String cleanedNumber = recepPhone.replaceAll(/\D/, '')
+        String paddedNumber = cleanedNumber.padLeft(11, '0')
+        return "${paddedNumber[0..4]} ${paddedNumber[5..10]}"
+    } else {
+        return null
+    }
+}
+
+    void setRecepPhone(String value) {
+        if (value) {
+            String cleanedNumber = value.replaceAll(/\D/, '')
+            String paddedNumber = cleanedNumber.padLeft(10, '0')
+            recepPhone = paddedNumber
+        } else {
+            recepPhone = null
+        }
+    }
+
+
     static constraints = {
         recepName size: 5..128, blank:false
         recepEmail size: 5..128, blank:false, unique:true, email:true 

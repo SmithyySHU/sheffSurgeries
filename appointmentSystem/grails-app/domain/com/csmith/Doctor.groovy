@@ -7,10 +7,37 @@ class Doctor {
     String doctorEmail
     String password
     String doctorOffice
-    int doctorPhone
+    String doctorPhone
     String bio
 
     Surgery surgery
+
+      String getdoctorPhone() {
+    if (doctorPhone) {
+        String cleanedNumber = doctorPhone.replaceAll(/\D/, '')
+        String paddedNumber = cleanedNumber.padLeft(11, '0')
+        return "${paddedNumber[0..4]} ${paddedNumber[5..10]}"
+    } else {
+        return null
+    }
+}
+
+    void setdoctorPhone(String value) {
+        if (value) {
+            String cleanedNumber = value.replaceAll(/\D/, '')
+            String paddedNumber = cleanedNumber.padLeft(10, '0')
+            doctorPhone = paddedNumber
+        } else {
+            doctorPhone = null
+        }
+    }
+
+
+    String toString(){
+
+        return fullName
+
+    }
 
     static constraints = {
 

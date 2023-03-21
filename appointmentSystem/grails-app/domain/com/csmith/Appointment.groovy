@@ -11,6 +11,11 @@ class Appointment {
     Patient patient
     Surgery surgery
 
+    String toString(){
+
+        return "${appDay} ${appTime} Patient: ${patient?.patientName}"
+    }
+
     static constraints = {
 
         
