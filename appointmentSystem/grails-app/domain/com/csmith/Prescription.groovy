@@ -8,8 +8,6 @@ class Prescription {
     Date dateissued
     String patientPaying
 
-    Doctor doctor
-    Patient patient
 
 
     String toString(){
@@ -25,5 +23,6 @@ class Prescription {
         patientPaying blank:false
     }
 
+    static hasOne = [doctor:Doctor, patient:Patient]
 
 }

@@ -4,10 +4,31 @@ class Surgery {
     String name 
     String address
     String postcode
-    int telephone
+    String telephone
     int numberOfPatients
     String description
     String openingTime
+
+ String getTelephone() {
+    if (telephone) {
+        String cleanedNumber = telephone.replaceAll(/\D/, '')
+        String paddedNumber = cleanedNumber.padLeft(11, '0')
+        return "${paddedNumber[0..4]} ${paddedNumber[5..10]}"
+    } else {
+        return null
+    }
+}
+
+    void setTelephone(String value) {
+        if (value) {
+            String cleanedNumber = value.replaceAll(/\D/, '')
+            String paddedNumber = cleanedNumber.padLeft(10, '0')
+            telephone = paddedNumber
+        } else {
+            telephone = null
+        }
+    }
+
 
     String toString() {
 

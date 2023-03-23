@@ -12,6 +12,8 @@ class Doctor {
 
     Surgery surgery
 
+    
+
       String getdoctorPhone() {
     if (doctorPhone) {
         String cleanedNumber = doctorPhone.replaceAll(/\D/, '')
@@ -47,6 +49,7 @@ class Doctor {
         password size: 8..32, blank:false
         doctorOffice size: 5..10, blank:false
         doctorPhone size: 10..11, blank:false
+        prescriptions()
     }
 
     static belongsTo = [surgery:Surgery]
