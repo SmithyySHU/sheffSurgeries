@@ -45,10 +45,10 @@ class Patient {
         patientDob blank:false 
         paitentID size: 5..12, blank:false, unique:true
         dateRegisted blank:false
-        patientPhone size: 10..11, blank:false
+        
     }
 
-    static hasMany = [prescriptions:Prescription, doctors:Doctor, surgerys:Surgery
+    static hasMany = [prescriptions:Prescription, doctors:Doctor, surgery:Surgery
      ]
 
      static belongsTo =[Surgery, Doctor]

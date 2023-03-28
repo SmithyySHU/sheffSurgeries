@@ -5,7 +5,7 @@ class Appointment {
     Date appDay
     String appTime
     String appDuration
-    int roomnumber 
+    String roomnumber 
 
     Doctor doctor
     Patient patient
