@@ -49,7 +49,7 @@ class Nurse {
 
     
 
-    static hasMany = [doctors:Doctor]
+    static hasMany = [appointments:Appointment]
 
-    static belongsTo = [Surgery, Doctor]
+    static belongsTo = [Surgery]
 }

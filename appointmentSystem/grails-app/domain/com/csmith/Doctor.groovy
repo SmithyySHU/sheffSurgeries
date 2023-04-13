@@ -1,7 +1,7 @@
 package com.csmith
 
 class Doctor {
-    String fullName
+    String doctorName
     String qualification
     String position
     String doctorEmail
@@ -37,13 +37,13 @@ class Doctor {
 
     String toString(){
 
-        return fullName
+        return doctorName
 
     }
 
     static constraints = {
 
-        fullName size: 2..64, blank:false
+        doctorName size: 2..64, blank:false
         position size: 2..64, blank:false
         doctorEmail size: 5..128, blank:false, unique:true, email:true
         password size: 8..32, blank:false
@@ -53,5 +53,5 @@ class Doctor {
 
     static belongsTo = [surgery:Surgery]
 
-    static hasMany = [patients:Patient, nurses:Nurse, appointments:Appointment, prescriptions:Prescription]
+    static hasMany = [appointments:Appointment, prescriptions:Prescription]
 }

@@ -26,7 +26,7 @@
                     </g:if>
                     <g:hasErrors bean="${this.doctor}">
                     <ul class="errors" role="alert">
-                        <g:eachError bean="${this.doctor}" var="error">p
+                        <g:eachError bean="${this.doctor}" var="error">
                         <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
                         </g:eachError>
                     </ul>
@@ -34,7 +34,7 @@
                     <g:form resource="${this.doctor}" method="PUT">
                         <g:hiddenField name="version" value="${this.doctor?.version}" />
                         <fieldset class="form">
-                            <f:all bean="doctor" order="fullName, qualification, position, doctorOffice, doctorPhone, password, bio, surgery, patients, nurses, appointments, prescriptions" />
+                            <f:all bean="doctor"/>
                         </fieldset>
                         <fieldset class="buttons">
                             <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

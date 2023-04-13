@@ -9,6 +9,8 @@ class Patient {
     String paitentID
     Date dateRegisted
     String patientPhone
+
+    Surgery surgery
     
 
     String getPatientPhone() {
@@ -48,8 +50,7 @@ class Patient {
         
     }
 
-    static hasMany = [prescriptions:Prescription, doctors:Doctor, surgery:Surgery
-     ]
+    static hasMany = [prescriptions:Prescription, appointments:Appointment]
 
-     static belongsTo =[Surgery, Doctor]
+    static belongsTo =[Surgery]
 }

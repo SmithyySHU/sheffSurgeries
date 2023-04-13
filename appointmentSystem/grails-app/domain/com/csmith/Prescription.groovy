@@ -8,6 +8,10 @@ class Prescription {
     Date dateissued
     String patientPaying
 
+    Doctor doctor
+
+    Patient patient
+
 
 
     String toString(){

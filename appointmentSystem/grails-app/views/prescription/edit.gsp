@@ -34,7 +34,7 @@
                     <g:form resource="${this.prescription}" method="PUT">
                         <g:hiddenField name="version" value="${this.prescription?.version}" />
                         <fieldset class="form">
-                            <f:all bean="prescription" order= "prescripNumber, pharmacyName, dateissued, totalCost, patientPaying, doctor, patient"/>
+                            <f:all bean="prescription"/>
                         </fieldset>
                         <fieldset class="buttons">
                             <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

@@ -8,6 +8,8 @@ class Surgery {
     int numberOfPatients
     String description
     String openingTime
+    String registeringNewPatients
+    
 
  String getTelephone() {
     if (telephone) {
