@@ -23,6 +23,9 @@
 <div class="row">
 
     <asset:image src = "banner.png"/>
+
+
+    <g:loginToggle/>
     </div>
 
 <g:layoutBody/>
