@@ -121,11 +121,13 @@ environments:
     test:
         dataSource:
             dbCreate: update
-            url: 
+            url: jdbc:mysql://localhost/sheffsurgeriestest
+            dialect: org.hibernate.dialect.MySQL8Dialect 
     production:
         dataSource:
             dbCreate: none
-            url: 
+            url: jdbc:mysql://localhost/sheffsurgeriesproduction
+            dialect: org.hibernate.dialect.MySQL8Dialect
             properties:
                 jmxEnabled: true
                 initialSize: 5

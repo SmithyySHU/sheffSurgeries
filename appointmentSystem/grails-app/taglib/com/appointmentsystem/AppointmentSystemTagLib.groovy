@@ -24,7 +24,10 @@ class AppointmentSystemTagLib {
 
     out << "<span style='float:right;margin-right:10px'>"
     out << "<a href='${createLink(controller:'receptionist', action:'login')}'>"
-    out << "Login </a></span>"
+    out << "Receptionist Login </a></span>"
+    out << "<span style='float:right;margin-right:10px'>"
+    out << "<a href='${createLink(controller:'doctor', action:'login')}'>"
+    out << "Doctor Login </a></span>"
     }
 
 out << "</div><br/>"
