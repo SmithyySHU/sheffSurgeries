@@ -9,8 +9,8 @@
 
 <div class="row">
 
-<h1>Surgery Appointments Application Search</h1>
-<h3>Search Results</h3>
+<h1>Surgery Appointments Application Advanced Search</h1>
+<h3>Advanced Results</h3>
 <p>
 
     Searched ${totalPatients} records
@@ -19,12 +19,10 @@
 
     Found <strong>${patients.size()}</strong> patients.
 </p>
-
 <ul>
-
     <g:each var="patient" in="${patients}">
 
-    <li><g:link controller="patient" action="show" id="${patient.id}">${patient.patientName}</g:link></li>
+            <li><g:link controller="patient" action="show" id="${patient.id}">${patient.patientName}</g:link></li>
 
     </g:each>
 
@@ -32,7 +30,7 @@
 
 <button type="button" class="btn btn success">
 
-<g:link action='search'>Search Again</g:link>
+<g:link action='advsearch'>Search Again</g:link>
 
 </button>
 </div>

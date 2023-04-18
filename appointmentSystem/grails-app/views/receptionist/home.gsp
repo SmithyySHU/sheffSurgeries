@@ -17,7 +17,16 @@
         <button type="button" class="btn btn-success">
             <g:link controller="Patient" action="create">Add Patient</g:link>
         </button>
-        <div>
+
+        <button type="button" class="btn btn-success">
+            <g:link controller="Patient" action="search">Patient Simple Search</g:link>
+        </button>
+
+         <button type="button" class="btn btn-success">
+            <g:link controller="Patient" action="advSearch">Patient Advanced Search</g:link>
+        </button>
+        
+        </div>
         <div class="second">
         <h3> Doctor Management </h3>
     <p></p>
