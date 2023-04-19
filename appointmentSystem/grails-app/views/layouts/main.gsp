@@ -16,50 +16,46 @@
     <asset:stylesheet src="application.css"/>
 
     <g:layoutHead/>
+    <div class="container-fluid bg-2 text-center" >
+    <asset:image src = "banner.png"/>
+    <h1><strong>Sheffield Surgerys Appointment Application</strong></h1>
+    
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <g:link url="/" class="nav-link">Home</g:link>
+      </li>
+       </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <g:loginToggle class="nav-link"/>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
 
-<div class="row">
 
-    <asset:image src = "banner.png"/>
+    
 
 
-    <g:loginToggle/>
     </div>
 
 <g:layoutBody/>
 
 <div class="footer" role="contentinfo">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <a href="http://guides.grails.org" target="_blank">
-                    <asset:image src="advancedgrails.svg" alt="Grails Guides" class="float-left"/>
-                </a>
-                <strong class="centered"><a href="http://guides.grails.org" target="_blank">Grails Guides</a></strong>
-                <p>Building your first Grails app? Looking to add security, or create a Single-Page-App? Check out the <a href="http://guides.grails.org" target="_blank">Grails Guides</a> for step-by-step tutorials.</p>
-
-            </div>
-            <div class="col">
-                <a href="http://docs.grails.org" target="_blank">
-                    <asset:image src="documentation.svg" alt="Grails Documentation" class="float-left"/>
-                </a>
-                <strong class="centered"><a href="http://docs.grails.org" target="_blank">Documentation</a></strong>
-                <p>Ready to dig in? You can find in-depth documentation for all the features of Grails in the <a href="http://docs.grails.org" target="_blank">User Guide</a>.</p>
-
-            </div>
-            <div class="col">
-                <a href="https://slack.grails.org" target="_blank">
-                    <asset:image src="slack.svg" alt="Grails Slack" class="float-left"/>
-                </a>
-                <strong class="centered"><a href="https://slack.grails.org" target="_blank">Join the Community</a></strong>
-                <p>Get feedback and share your experience with other Grails developers in the community <a href="https://slack.grails.org" target="_blank">Slack channel</a>.</p>
-            </div>
-        </div>
-    </div>
+<div class="fluid-container text-center">
+    <p> Ⓒ Connor Smith 2023 </p>
 </div>
-
+</div>
 <div id="spinner" class="spinner" style="display:none;">
     <g:message code="spinner.alt" default="Loading&hellip;"/>
 </div>

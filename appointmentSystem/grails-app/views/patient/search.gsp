@@ -3,13 +3,15 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="sheffsug.css"/>
-    <title>Surgery Appointments Application | Receptionist Search</title>
+    <title>Sheffield Surgerys Appointment Application | Receptionist Search</title>
 </head>
 <body>
 
+<h1>Sheffield Surgerys Appointment Application Search</h1>
+
 <div class="row">
 
-<h1>Surgery Appointments Application Search</h1>
+
 
 <formset>
     <legend>Search for Patients(Simple)</legend>

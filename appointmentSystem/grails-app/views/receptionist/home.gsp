@@ -3,13 +3,14 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="sheffsug.css"/>
-    <title>Surgery Appointments Application | Receptionist Home page</title>
+    <title>Sheffield Surgerys Appointment Application | Receptionist Home page</title>
 </head>
 <body>
 
 </div>
 
 <div id="content" role="main">
+    <div class="fluid-container text-center">
       <div class="row">
       <div class="first">
         <h3> Patient Management </h3>
@@ -69,8 +70,9 @@
             <g:link controller="Receptionist" action="index">Receptionist List</g:link>
         </button>
         </div>
-
-    </div>
+        </div>
+        </div>
+    
     </div>
     </body>
     </html>

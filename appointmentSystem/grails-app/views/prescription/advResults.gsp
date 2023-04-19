@@ -3,13 +3,13 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="sheffsug.css"/>
-    <title>Surgery Appointments Application | Prescription Simple Search</title>
+    <title>Sheffield Surgerys Appointment Application | Prescription Simple Search</title>
 </head>
 <body>
-
+<h1>Sheffield Surgerys Appointment Application Advanced Search</h1>
 <div class="row">
 
-<h1>Surgery Appointments Application Advanced Search</h1>
+
 <h3>Advanced Results</h3>
 <p>
 

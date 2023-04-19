@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="sheffsug.css"/>
-    <title>Surgery Appointments Application | Doctor Login</title>
+    <title>Sheffield Surgerys Appointment Application | Doctor Login</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
 </head>

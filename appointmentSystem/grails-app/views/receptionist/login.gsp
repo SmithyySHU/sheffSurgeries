@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="sheffsug.css"/>
-    <title>Surgery Appointments Application | Receptionist Login</title>
+    <title>Sheffield Surgerys Appointment Application | Receptionist Login</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
 </head>
@@ -17,7 +17,7 @@
  <table>
         <tr class="prop">
           <td class="name">
-            <label for="recepUsername">User Name:</label>
+            <label for="recepUsername">Username:</label>
           </td>
           <td class="value">
             <input type="text" id="recepUsername" name="recepUsername" value="">
@@ -31,7 +31,7 @@
           </td></tr>
         <tr><td></td>
           <td>
-            <input type="submit" value="login"/>
+            <input type="submit" value="Login"/>
           </td></tr>
       </table>
     </g:form>

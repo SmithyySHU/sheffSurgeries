@@ -12,9 +12,9 @@ class AppointmentSystemTagLib {
         if (request.getSession(false) && session.user)
   {
 
-    out << "<span style='float:left; margin-left: 15px'>"
-    out << "Welcome ${session.user}."
-    out << "</span><span style='float:right;margin-right:15px'>"
+    out << "<span style='float:left; margin-left: 20px;color:white;'>"
+    out << "Welcome ${session.user}.  "
+    out << "</span><span style='float:right;margin-right:20px;color:white;'>"
     out << "<a href='${createLink(controller:'receptionist', action:'logout')}'>"
     out << "Logout </a></span>"
 
