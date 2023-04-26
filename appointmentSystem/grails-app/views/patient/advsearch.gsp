@@ -6,9 +6,16 @@
     <title>Sheffield Surgerys Appointment Application| Receptionist Search</title>
 </head>
 <body>
-<h1>Sheffield Surgerys Appointment Application Advanced Search</h1>
-<div class="row">
 
+
+
+<div class="fluid-container text-center">
+<h1>Sheffield Surgerys Appointment Application Advanced Search</h1>
+</div>
+
+<p></p>
+
+<div class="fluid-container text-center">
 
 <formset>
     <legend> Patient Advanced Search</legend>
@@ -43,6 +50,7 @@
 </table>
 
 </formset>
+</div>
 </div>
 </body>
 </html>

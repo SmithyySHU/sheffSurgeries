@@ -6,10 +6,14 @@
     <title>Surgery Appointments Application | Prescription Simple Search</title>
 </head>
 <body>
+<div class="fluid-container text-center">
 
-<div class="row">
+<h1>Sheffield Surgerys Prescription Application Search</h1>
+</div>
 
-<h1>Surgery Appointments Application Search</h1>
+<p></p>
+
+<div class="fluid-container text-center">
 <h3>Search Results</h3>
 <p>
 

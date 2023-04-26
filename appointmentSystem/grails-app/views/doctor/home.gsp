@@ -10,7 +10,7 @@
 </div>
 
 <div id="content" role="main">
-      <div class="row">
+      <div class="fluid-container text-center">
       <div class="first">
         <h3> Patient Management </h3>
     <p></p>

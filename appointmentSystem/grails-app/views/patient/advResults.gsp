@@ -6,10 +6,13 @@
     <title>Sheffield Surgerys Appointment Application | Patients Simple Search</title>
 </head>
 <body>
+<div class="fluid-container text-center">
 <h1>Sheffield Surgerys Appointment Application Advanced Search</h1>
-<div class="row">
+</div>
 
+<p></p>
 
+<div class="fluid-container text-center">
 <h3>Advanced Results</h3>
 <p>
 
@@ -33,6 +36,7 @@
 <g:link action='advsearch'>Search Again</g:link>
 
 </button>
+</div>
 </div>
 </body>
 </html>

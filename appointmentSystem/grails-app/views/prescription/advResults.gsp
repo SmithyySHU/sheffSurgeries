@@ -6,9 +6,15 @@
     <title>Sheffield Surgerys Appointment Application | Prescription Simple Search</title>
 </head>
 <body>
-<h1>Sheffield Surgerys Appointment Application Advanced Search</h1>
-<div class="row">
+<body>
+<div class="fluid-container text-center">
 
+<h1>Sheffield Surgerys Prescription Application Advanced Search</h1>
+</div>
+
+<p></p>
+
+<div class="fluid-container text-center">
 
 <h3>Advanced Results</h3>
 <p>

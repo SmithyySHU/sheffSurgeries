@@ -6,9 +6,14 @@
     <title>Sheffield Surgerys Appointment Application | Receptionist Simple Search</title>
 </head>
 <body>
-<h1>Sheffield Surgerys Appointment Application Search</h1>
-<div class="row">
+<div class="fluid-container text-center">
 
+<h1>Sheffield Surgerys Appointment Application Search</h1>
+</div>
+
+<p></p>
+
+<div class="fluid-container text-center">
 
 <h3>Search Results</h3>
 <p>
@@ -35,6 +40,8 @@
 <g:link action='search'>Search Again</g:link>
 
 </button>
+</div>
+</div>
 </div>
 </body>
 </html>
